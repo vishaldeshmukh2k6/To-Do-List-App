@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Flash messages */
+.flash.success {
+    color: green;
+}
+
+.flash.danger {
+    color: red;
+}
+
+.flash.info {
+    color: blue;
+}
+
+/* Login Form */
+.login-box {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Task Box */
+.task-box {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.task-form input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.task-form .btn {
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+/* Task Table */
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+    background-color: #f2f2f2;
+}
+
+/* Delete Button */
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Badge Colors */
+.badge {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+}
+
+.badge.pending {
+    background-color: #ffc107;
+}
+
+.badge.working {
+    background-color: #17a2b8;
+}
+
+.badge.done {
+    background-color: #28a745;
+}
+
+/* Small Button */
+.btn-small {
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-small:hover {
+    background-color: #495057;
+}
+
+/* Clear Button */
+.btn-clear {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn-clear:hover {
+    background-color: #c82333;
+}
+.btn-delete {
+    background-color: #dc3545;
+    margin-left: 5px;
+}
+.btn-delete:hover {
+    background-color: #c82333;
+}
