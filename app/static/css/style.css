@@ -237,3 +237,73 @@ footer p {
 .btn-delete:hover {
     background-color: #c82333;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container,
+    .task-box,
+    .login-box {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+        font-size: 14px;
+    }
+
+    .task-form {
+        flex-direction: column;
+    }
+
+    .task-form input[type="text"],
+    .task-form .btn {
+        width: 100%;
+    }
+
+    .task-table th,
+    .task-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn,
+    .btn-small,
+    .btn-delete,
+    .btn-clear {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    .form-group input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    nav a {
+        font-size: 13px;
+        margin: 4px;
+    }
+
+    .task-table {
+        font-size: 13px;
+    }
+
+    .btn,
+    .btn-small,
+    .btn-delete,
+    .btn-clear {
+        padding: 8px;
+        font-size: 13px;
+    }
+}
