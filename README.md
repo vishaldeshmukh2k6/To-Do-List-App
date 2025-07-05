@@ -6,6 +6,7 @@ A **Full Stack "To-Do List" Web App** that allows users to manage their daily ta
 
 ---
 
+
 ## 🔑 Core Features
 
 | Feature       | Description                                      |
