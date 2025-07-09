@@ -37,4 +37,4 @@ A **Full Stack "To-Do List" Web App** that allows users to manage their daily ta
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/vishaldeshmukh2k6/todo-app.git
-   cd todo-app
+   cd To-do List App
